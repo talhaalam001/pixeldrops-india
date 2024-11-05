@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talha's Design Portfolio</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Portfolio</h1>
+            <nav>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+                <a href="#upload">Upload</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <img src="photo1.png" alt="Left Decorative Image" class="hero-image left-image">
+                    <div class="hero-text">
+                        <h2>Welcome to My Design Portfolio</h2>
+                        <p>I am Talha and Discover my latest work and projects.</p>
+                        <a href="#contact" class="cta-button">Get in Touch</a>
+                    </div>
+                    <img src="photo2.png" alt="Right Decorative Image" class="hero-image right-image">
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <div class="container">
+                <h2>My Work</h2>
+                <div class="portfolio-items">
+                    <div class="portfolio-item">
+                        <img src="thumb.jpg" alt="Preview of Example Work" width="300" height="300">
+                        <a href="https://drive.google.com/file/d/119Q2MmiCcTjKKfgAq1PEjcUxPVOGVd2B/view?usp=drive_link" class="cta-button" target="_blank">View PDF</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="upload">
+            <div class="container">
+                <h2>Upload Your Files</h2>
+                <form id="uploadForm" enctype="multipart/form-data">
+                    <input type="file" name="file" accept=".pdf,.jpeg,.jpg,.png" required>
+                    <button type="submit" class="cta-button">Upload File</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <div class="contact-info">
+                    <div class="contact-text">
+                        <p>Email: <a href="mailto:Pixeldropsstore@gmail.com">Pixeldropsstore@gmail.com</a></p>
+                        <p>Phone: <a href="tel:+919798626202">+91 9798626202</a></p>
+                        <p>WhatsApp: <a href="https://wa.me/919798626202" target="_blank">Chat with me</a></p>
+                    </div>
+                    <div class="contact-whatsapp">
+                        <p>WhatsApp: <a href="https://wa.me/919798626202" target="_blank">Chat with me</a></p>
+                        <img src="path/to/your-qr-code-image.png" alt="QR Code">
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/talha_ansari_graphic_desiger_9/profilecard/?igsh=MWJkbHZhNmRqd21lZg%3D%3D" target="_blank">Instagram</a>
+                    <a href="https://www.facebook.com/profile.php?id=61563471064432&mibextid=ZbWKwL" target="_blank">Facebook</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Pixeldrops. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
