@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Talha's Design Portfolio</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css"/>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet"/>
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet"/>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="logo 1.png" alt="Pixeldrops Logo" class="logo-img">
+        Pixeldrops
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <label class="switch">
+              <input type="checkbox" id="theme-toggle">
+              <span class="slider round"></span>
+            </label>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero-section" data-aos="fade-up">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-4 text-center">
+            <div class="hero-image-container">
+              <img src="photo1.png" alt="Left Decorative Image" class="hero-image left-image" data-aos="fade-right"/>
+            </div>
+          </div>
+          <div class="col-lg-4 text-center">
+            <div class="hero-text" data-aos="zoom-in">
+              <h1>Welcome to My Design Portfolio</h1>
+              <p class="lead">I am Talha — A passionate designer creating stunning visual experiences.</p>
+              <div class="hero-buttons">
+                <a href="#contact" class="cta-button">Get in Touch</a>
+                <a href="https://drive.google.com/file/d/1UXoIn34Cf5A9QJQmS7N7pUlIOdmAbNyC/view?usp=drive_link" target="_blank" class="cta-button secondary">View Work</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 text-center">
+            <div class="hero-image-container">
+              <img src="photo2.png" alt="Right Decorative Image" class="hero-image right-image" data-aos="fade-left"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section" data-aos="fade-up">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="about-image">
+              <img src="about.png" alt="About Me" class="img-fluid rounded">
+              <div class="about-image-overlay">
+                <div class="experience-badge">
+                  <span class="years">3+</span>
+                  <span class="text">Years Experience</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="about-content">
+              <h2 class="section-title">About Me</h2>
+              <p class="about-text">I'm a passionate designer with expertise in creating stunning visual experiences. With years of experience in the industry, I specialize in delivering unique and impactful designs that help businesses stand out.</p>
+              <div class="skills">
+                <div class="skill-item">
+                  <span>UI/UX Design</span>
+                  <div class="progress">
+                    <div class="progress-bar" style="width: 90%"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <span>Graphic Design</span>
+                  <div class="progress">
+                    <div class="progress-bar" style="width: 85%"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <span>Web Design</span>
+                  <div class="progress">
+                    <div class="progress-bar" style="width: 80%"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="about-stats">
+                <div class="stat-item">
+                  <h3>50+</h3>
+                  <p>Projects Completed</p>
+                </div>
+                <div class="stat-item">
+                  <h3>30+</h3>
+                  <p>Happy Clients</p>
+                </div>
+                <div class="stat-item">
+                  <h3>100%</h3>
+                  <p>Client Satisfaction</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section" data-aos="fade-up">
+      <div class="container">
+        <h2 class="section-title text-center">My Services</h2>
+        <p class="section-subtitle text-center">I offer a range of design services to help bring your vision to life</p>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="service-card">
+              <i class="fas fa-paint-brush"></i>
+              <h3>Graphic Design</h3>
+              <p>Creating intuitive and beautiful user interfaces that enhance user experience and drive engagement.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-card">
+              <i class="fas fa-laptop-code"></i>
+              <h3>Freelancing Work</h3>
+              <p>Designing responsive and modern websites that stand out from the crowd and convert visitors.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-card">
+              <i class="fas fa-mobile-alt"></i>
+              <h3>Printig Solution</h3>
+              <p>Creating mobile-first designs that work seamlessly across all devices and screen sizes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section" data-aos="fade-up">
+      <div class="container">
+        <h2 class="section-title text-center">My Work</h2>
+        <p class="section-subtitle text-center">Explore my latest projects and design work</p>
+        <div class="portfolio-filter">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="web">Freelancing Work</button>
+          <button class="filter-btn" data-filter="ui">Printing Solution</button>
+          <button class="filter-btn" data-filter="graphic">Graphic Design</button>
+        </div>
+        <div class="row g-4 portfolio-grid">
+          <div class="col-md-4 portfolio-item" data-category="web">
+            <div class="portfolio-card">
+              <img src="assets/portfolio1.jpg" class="card-img-top" alt="Web Design Project">
+              <div class="portfolio-overlay">
+                <h3>E-commerce Website</h3>
+                <p>Web Design</p>
+                <a href="https://drive.google.com/file/d/1ipjshjV0jm8DrOA1jgsmJocnMCEAQANl/view?usp=drive_link" target="_blank" class="view-project">View Project</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 portfolio-item" data-category="ui">
+            <div class="portfolio-card">
+              <img src="assets/portfolio2.jpg" class="card-img-top" alt="UI/UX Project">
+              <div class="portfolio-overlay">
+                <h3>Mobile App UI</h3>
+                <p>UI/UX Design</p>
+                <a href="#" class="view-project">View Project</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 portfolio-item" data-category="graphic">
+            <div class="portfolio-card">
+              <img src="assets/portfolio3.jpg" class="card-img-top" alt="Graphic Design Project">
+              <div class="portfolio-overlay">
+                <h3>Brand Identity</h3>
+                <p>Graphic Design</p>
+                <a href="#" class="view-project">View Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section" data-aos="fade-up">
+      <div class="container">
+        <h2 class="section-title text-center">Client Testimonials</h2>
+        <p class="section-subtitle text-center">What my clients say about my work</p>
+        <div class="swiper testimonial-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="testimonial-card">
+                <div class="testimonial-content">
+                  <p>"Talha's designs are exceptional. He delivered exactly what we needed and more! His attention to detail and creative approach made our project stand out."</p>
+                </div>
+                <div class="testimonial-author">
+                  <img src="Clint.png" alt="Client">
+                  <div>
+                    <h4>Wazid Khan</h4>
+                    <p>Instagram Influencer (Nobita)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-card">
+                <div class="testimonial-content">
+                  <p>"Working with Talha was a pleasure. He understood our vision perfectly and created designs that exceeded our expectations. Highly recommended!"</p>
+                </div>
+                <div class="testimonial-author">
+                  <img src="assets/client2.jpg" alt="Client">
+                  <div>
+                    <h4>Jane Smith</h4>
+                    <p>Marketing Director, Tech Corp</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section" data-aos="fade-up">
+      <div class="container">
+        <h2 class="section-title text-center">Contact Me</h2>
+        <p class="section-subtitle text-center">Let's work together on your next project</p>
+        <div class="row justify-content-center">
+          <div class="col-lg-5">
+            <div class="contact-info">
+              <a href="mailto:Pixeldropsstore@gmail.com" class="contact-item" onclick="window.location.href='mailto:Pixeldropsstore@gmail.com'">
+                <i class="fas fa-envelope"></i>
+                <div class="contact-details">
+                  <h4>Email</h4>
+                  <span class="contact-link">Pixeldropsstore@gmail.com</span>
+                </div>
+              </a>
+              <a href="tel:+919798626202" class="contact-item" onclick="window.location.href='tel:+919798626202'">
+                <i class="fas fa-phone"></i>
+                <div class="contact-details">
+                  <h4>Phone</h4>
+                  <span class="contact-link">+91 9798626202</span>
+                </div>
+              </a>
+              <a href="https://wa.me/919798626202" target="_blank" class="contact-item" onclick="window.open('https://wa.me/919798626202', '_blank')">
+                <i class="fab fa-whatsapp"></i>
+                <div class="contact-details">
+                  <h4>WhatsApp</h4>
+                  <span class="contact-link">Chat with me</span>
+                </div>
+              </a>
+              <a href="https://drive.google.com/file/d/1UXoIn34Cf5A9QJQmS7N7pUlIOdmAbNyC/view?usp=drive_link" target="_blank" class="contact-item">
+                <i class="fas fa-file-alt"></i>
+                <div class="contact-details">
+                  <h4>Resume</h4>
+                  <span class="contact-link">Download CV</span>
+                </div>
+              </a>
+            </div>
+            <div class="social-links">
+              <a href="https://www.instagram.com/talha_ansari_graphic_desiger_9/profilecard/" target="_blank" class="social-icon">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://www.facebook.com/profile.php?id=61563471064432" target="_blank" class="social-icon">
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a href="#" target="_blank" class="social-icon">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="#" target="_blank" class="social-icon">
+                <i class="fab fa-behance"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="contact-form">
+              <form id="contactForm">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="cta-button">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h4>Pixeldrops</h4>
+          <p>Creating beautiful designs that make a difference.</p>
+        </div>
+        <div class="col-md-4">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h4>Newsletter</h4>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Enter your email">
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Pixeldrops. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
